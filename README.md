@@ -28,10 +28,10 @@ End the program.
 ```
 #Devolped By:Masina Sree Karsh
 #Ref no: 23005860
-with open('sample.txt','r') as file1:
- with open ('san1.txt','a') as file2:
- for line in file1:
- file2.write(line)
+with open("text.txt","r") as f1:
+    with open("copy.txt","w") as f2:
+        line=f1.read()
+        f2.write(line)
 ```
 ## OUTPUT:
 
